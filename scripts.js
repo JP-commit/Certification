@@ -37,20 +37,20 @@ function updateContentBasedOnCity() {
         if (document.getElementById('schedule-content')) {
             const eventSchedule = {
                 "Gurgaon": [
-                    "2:30 PM Onwards: Entry to the Venue",
-                    "2:30 PM - 3:00 PM: Arrival of Buses",
-                    "2:30 PM - 7:00 PM: Snacks",
-                    "3:30 PM - 9:00 PM: Cultural Performances",
-                    "7:00 PM - 9:30 PM: Dinner",
-                    "9:30 PM Onwards: Departure of Buses"
+                    "2:30 PM Onwards: <br>Entry to the Venue",
+                    "2:30 PM - 3:00 PM: <br>Arrival of Buses",
+                    "2:30 PM - 7:00 PM: <br>Snacks",
+                    "3:30 PM - 9:00 PM: <br>Cultural Performances",
+                    "7:00 PM - 9:30 PM: <br>Dinner",
+                    "9:30 PM Onwards: <br>Departure of Buses"
                 ],
                 "Delhi": [
-                    "3:00 PM Onwards: Entry to the Venue",
-                    "3:00 PM - 3:30 PM: Arrival of Buses",
-                    "3:00 PM - 7:30 PM: Snacks",
-                    "4:00 PM - 10:00 PM: Cultural Performances",
-                    "7:30 PM - 10:00 PM: Dinner",
-                    "10:00 PM Onwards: Departure of Buses"
+                    "3:00 PM Onwards: <br>Entry to the Venue",
+                    "3:00 PM - 3:30 PM: <br>Arrival of Buses",
+                    "3:00 PM - 7:30 PM: <br>Snacks",
+                    "4:00 PM - 10:00 PM: <br>Cultural Performances",
+                    "7:30 PM - 10:00 PM: <br>Dinner",
+                    "10:00 PM Onwards: <br>Departure of Buses"
                 ],
                 // Add more cities as needed
             };
