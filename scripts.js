@@ -32,9 +32,9 @@ function updateContentBasedOnCity() {
         }
     } else {
         if (document.getElementById('venue-details')) {
-            document.getElementById('venue-details').innerText = `Venue details for ${selectedCity}`;
+            document.getElementById('venue-details').innerText = `Program details for ${selectedCity}`;
         }
-        if (document.getElementById('schedule-content')) {
+        /* if (document.getElementById('schedule-content')) {
             const eventSchedule = {
                 "Gurgaon": [
                     "2:30 PM Onwards: <br>Entry to the Venue",
@@ -56,7 +56,7 @@ function updateContentBasedOnCity() {
             };
             const schedule = eventSchedule[selectedCity] || ["Schedule not available"];
             document.getElementById('schedule-content').innerHTML = schedule.map(item => `<li>${item}</li>`).join('');
-        }
+        }*/
         // Similarly update content for other pages based on city
     }
 }
