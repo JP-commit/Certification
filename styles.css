@@ -127,10 +127,13 @@ width: 16px;
     font-size: 17px;
     line-height: 200%;
     text-align: left;
-    color: #00796b;
+    color: #292929;
 }
 
-
+div.key{
+    color: #004379;
+    font-weight: bold;
+}
 
 /* Form Styles */
 form {
