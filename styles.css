@@ -40,7 +40,7 @@ body {
 .back-btn {
     left: 10px;
     padding: 10px;  /* Adjusted for smaller size */
-width: 16px;
+    width: 16px;
 }
 .change-city-btn {
     right: 10px;
@@ -52,12 +52,16 @@ width: 16px;
 /* Content */
 .content {
     text-align: center;
-    padding: 20px;
+    padding: 20px 20PX 0PX 20PX;
 }
 .content img {
     width: 80%;
-    max-width: 300px;
+    max-width: 250px;
     animation: fade-in 2s;
+}
+.content P{
+    color: #292929;
+    font-weight: bold;
 }
 
 /* Grid */
