@@ -72,7 +72,7 @@ function updateContentBasedOnCity() {
             const cityAddress ={
                 "Gurgaon" : "https://maps.app.goo.gl/Q5zzAwsSjoES9qiy7",
                 "Delhi" : "https://maps.app.goo.gl/XpBizMt43Vy5bViv7",
-                "Mumbai" : "https://maps.google.com/?q=https://maps.app.goo.gl/fMFY6EWemXoUFXgCA"
+                "Mumbai" : "https://maps.app.goo.gl/fMFY6EWemXoUFXgCA"
             }
             const address = cityAddress[selectedCity]
             document.getElementById('venue-map').href = address;
