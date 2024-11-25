@@ -58,5 +58,24 @@ function updateContentBasedOnCity() {
             document.getElementById('schedule-content').innerHTML = schedule.map(item => `<li>${item}</li>`).join('');
         }*/
         // Similarly update content for other pages based on city
+
+        if(document.getElementById('venue-address')){
+            const cityAddress ={
+                "Gurgaon" : "Hotel Ramada, Sector 28, Gurgaon",
+                "Delhi" : "Radisson Blu Hotel, New Delhi",
+                "Mumbai" : "IBIS Hotel, Navi Mumbai"
+            }
+            const address = cityAddress[selectedCity]
+            document.getElementById('venue-address').innerHTML = address;
+        }
+        if(document.getElementById('venue-map')){
+            const cityAddress ={
+                "Gurgaon" : "https://maps.app.goo.gl/Q5zzAwsSjoES9qiy7",
+                "Delhi" : "https://maps.app.goo.gl/XpBizMt43Vy5bViv7",
+                "Mumbai" : "https://maps.app.goo.gl/fMFY6EWemXoUFXgCA"
+            }
+            const address = cityAddress[selectedCity]
+            document.getElementById('venue-map').href = address;
+        }
     }
 }

@@ -128,8 +128,29 @@ body {
     font-weight: bold;
 }
 
+/* Venue Details */
 
+.Add-block {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 20px 10px;
+}
 
+.Add-block img{
+    width:  50px;
+    height: 50px;
+    padding-left: 1ex;
+}
+.Add-block p{
+    color:#004379;
+    font-weight: bold;
+}
 /* Footer */
 .footer {
     background-color: #ffffff;
